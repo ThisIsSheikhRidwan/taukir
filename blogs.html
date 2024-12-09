@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shahadat Portfolio</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Material+Symbols+Outlined&display=swap" rel="stylesheet" />
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Header Section -->
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <span class="material-symbols-outlined" onclick="hideMenu()">close</span>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="blogs.html">Blogs</a></li>
+                        <li><a href="contact me.html">Contact Me</a></li>
+                    </ul>
+                </div>
+                <span class="material-symbols-outlined" onclick="showMenu()">menu</span>
+            </nav>
+             <h1>BLOGS</h1>
+        </section>
+        
+        <!------blogs------>
+    <section class="blog">
+            <h1>Going To Tell You About Three Naruto Universe Characters!</h1>
+            <p>Welcome To My Anime Universe</p>
+            <div class="row">
+                <div class="blog-col" >
+                    <h3>Naruto Uzumaki</h3>
+                    <p>Naruto Uzumaki, a whirlwind of energy and unwavering optimism,<br> 
+                        is the heart and soul of the Naruto universe.<br> Born with the Nine-Tailed Demon Fox sealed 
+                        within him,<br> Naruto faced ostracism and prejudice from his village.<br>
+                        Yet, instead of succumbing to bitterness,<br> 
+                        he channeled his experiences into an indomitable spirit and a relentless pursuit of his dream:
+                        <br> to become Hokage, the leader of Konohagure.
+                        <br> Naruto's unwavering belief in himself and his friends,<br> 
+                        coupled with his uncanny ability to connect with others,<br> 
+                        allows him to overcome seemingly insurmountable obstacles and inspire those around him.
+                        <br> His journey is a testament to the power of perseverance,
+                        <br> the importance of friendship,<br> and the enduring strength of the human spirit.</p>
+                    </div>
+                <div class="blog-col">
+                    <h3>Sasuke Uchiha</h3> 
+                    <p>Sasuke Uchiha, a prodigy haunted by tragedy,<br> 
+                        embodies the darkness that can consume even the most gifted individuals.<br>
+                        Witnessing the brutal massacre of his clan by his own brother, Itachi,<br>
+                        Sasuke's life is consumed by a single, all-consuming goal: revenge.<br>
+                        Driven by a thirst for power and a desire to surpass Itachi,<br> 
+                        Sasuke embarks on a perilous path,<br>
+                        aligning himself with dangerous organizations and making choices that 
+                        alienate his friends and threaten the stability of the ninja world.<br>
+                        His journey is a poignant exploration of the corrosive effects of grief,<br> 
+                        the seductive allure of power,<br> and the struggle to find redemption
+                        in the face of overwhelming darkness.</p>
+                </div>  
+                <div class="blog-col">
+                    <h3>Itachi Uchiha</h3> 
+                    <p>Itachi Uchiha, a name whispered with reverence and tinged with tragedy,
+                        <br> remains one of the most complex and enigmatic figures in the Naruto universe.<br> 
+                        Forced to make an impossible choice between his clan and his village,<br> 
+                        Itachi was tasked with the heartbreaking duty of eliminating his entire family.<br>
+                        This act, born of loyalty and a desperate attempt to prevent a devastating conflict,<br> 
+                        forever branded him a villain in his brother's eyes.<br>
+                        However, the truth behind Itachi's actions,<br>
+                        revealed through a series of flashbacks and poignant revelations,<br>
+                        paints a picture of a man consumed by duty and driven by an unwavering love for
+                        his younger brother.<br> Itachi's story is a poignant exploration of the weight of duty,<br> 
+                        the sacrifices demanded by loyalty,<br> 
+                        and the enduring power of love even in the face of unimaginable tragedy.</p>
+                </div>  
+            </div>
+        </section>
+
+        
+        <section class="footer">
+        <h4>Details About Me</h4>
+            <p>My name is Mithun Shahariar Taukir.<br>I am a student of Tokyo International University in Tokyo, Japan.
+            <br>My Major Is Digital Business & Innovation<br>23229575
+            </p>
+            <div class="icons">
+            <a href="https://www.facebook.com/shahariar.taukir.9">
+                <i class="fa fa-facebook-official" ></i>
+                </a>
+                <a href="https://www.instagram.com/taukiirr/profilecard/?igsh=dWhtNWp2M20zemI1">
+                    <i class="fa fa-instagram" ></i></a>
+                <a href="https://www.snapchat.com/add/taukiirr?share_id=GHsjeLxLu8Y&locale=en-US-u-mu-celsius">
+                    <i class="fa fa-snapchat" ></i></a>
+            </div>
+            <p> Mithun Shahariar Taukir<br>Roll:23229575</p>
+        </section>
+
+
+        <!-- JavaScript for Toggle Menu -->
+        <script>
+            const navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0"; // Slide menu into view
+            }
+
+            function hideMenu() {
+                navLinks.style.right = "-200px"; // Slide menu out of view
+            }
+
+            // Hide menu for larger screens
+            window.addEventListener('resize', () => {
+                if (window.innerWidth > 1200) {
+                    navLinks.style.right = "0"; // Keep menu hidden
+                    navLinks.style.display = "none"; // Hide nav for desktops
+                } else {
+                    navLinks.style.display = "block"; // Show nav for smaller screens
+                }
+            });
+        </script>
+    </body>
+</html>
