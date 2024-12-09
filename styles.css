@@ -7,20 +7,22 @@
 .header{
     min-height: 100vh;
     width:100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://scontent-nrt1-2.xx.fbcdn.net/v/t39.30808-6/455284465_1226240865457271_5802770038770160084_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=sF8MBtoIlMMQ7kNvgFiE0zr&_nc_zt=23&_nc_ht=scontent-nrt1-2.xx&_nc_gid=ACy3cS7aPbtzH8BDgUdnwch&oh=00_AYAAmAHXtNIkvCakaqre7uX3B2rHgbXXrXY0etdFOawrWw&oe=675CF5C6);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(http://images6.fanpop.com/image/photos/35600000/Anime-Characters-anime-universe-35612327-4098-2304.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
 }
 nav{
     display: flex;
-    padding: 3% 3%;
+    padding: 2% 3%;
     justify-content:space-between;
     align-items:center;
     }
 
 nav img{
     width: 7%;
+    margin: 1%;
+    margin-left: 
 }
 .nav-links{
     flex:1;
@@ -29,13 +31,13 @@ nav img{
 .nav-links ul li{
     list-style: none;
     display: inline-block;
-    padding: 13px 12px;
+    padding: 6px 14px;
     position: relative;
     }
 .nav-links ul li a{
     color: #ffffff;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 20px;
     }
 .nav-links ul li::after{
     content: '';
@@ -198,11 +200,11 @@ h3{
 .sub-header{
     height:50vh;
     width: 100%;
-    background-image: url(https://scontent-nrt1-2.xx.fbcdn.net/v/t39.30808-6/459306170_1247301843351173_3744639968845078907_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=D7DkfAGSz5sQ7kNvgEoxs2g&_nc_zt=23&_nc_ht=scontent-nrt1-2.xx&_nc_gid=AlOjEqHP1PFTTzj54jL46Xb&oh=00_AYAntG8I241XlTb5WT10UaI2wnib03dbdR4JwruXYWr1Fw&oe=675D0DCB);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://popgeeknews.com/wp-content/uploads/2023/07/Cover-Jump-Festa-2024-860x484.webp);
     background-position: center;
     background-size: cover;
     text-align: center;
-    color: #fff;
+    color: rgb(255, 255, 255);
 
 }
 .sub-header h1{
